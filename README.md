@@ -1,5 +1,5 @@
 # Open Alert Images Manager
-This service controls data about stored photos of missing or found people. 
+This service controls data of stored photos of missing or found people. 
 
 # Technologies 
 * Java 8
