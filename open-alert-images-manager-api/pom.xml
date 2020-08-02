@@ -11,7 +11,7 @@
     </parent>
 
 
-    <artifactId>open-alert-images-manager-common</artifactId>
+    <artifactId>open-alert-images-manager-api</artifactId>
     <groupId>com.khaniv</groupId>
     <version>0.0.1</version>
 
@@ -39,6 +39,18 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-feign</artifactId>
+            <version>1.4.7.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.khaniv</groupId>
+            <artifactId>open-alert-images-manager-common</artifactId>
+            <version>0.0.1</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 
