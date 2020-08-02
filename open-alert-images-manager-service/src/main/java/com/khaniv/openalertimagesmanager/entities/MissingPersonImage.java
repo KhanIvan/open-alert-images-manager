@@ -11,6 +11,7 @@ import java.util.UUID;
 @Data
 public class MissingPersonImage {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id", unique = true)
     private Long id;
 
