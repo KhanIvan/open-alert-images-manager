@@ -3,7 +3,7 @@ package com.khaniv.openalertimagesmanager.api;
 import com.khaniv.openalertimagesmanager.constants.MissingPeopleImagesPaths;
 import com.khaniv.openalertimagesmanager.dto.MissingPersonImageDto;
 import lombok.NonNull;
-import org.springframework.cloud.netflix.feign.FeignClient;
+import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
