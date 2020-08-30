@@ -28,7 +28,7 @@ public class MissingPeopleImagesController {
     @GetMapping(MissingPeopleImagesPaths.FIND_BY_PERSON_ID)
     public List<MissingPersonImageDto> findMissingPersonImageByPersonId(@PathVariable(name = "id") @NonNull UUID id) {
         log.info("Find missing person images by person ID: {}", id);
-        return missingPeopleImagesService.findMissingPersonImageByPersonId(id);
+        return missingPeopleImagesService.findMissingPersonImagesByPersonId(id);
     }
 
     @PostMapping
